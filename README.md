@@ -4,7 +4,12 @@
 A two-stage graph construction pipeline for ordered / segmented vector data.
 
 ---
-
+This demo is intended for fast project verification.
+It allows users or interviewers to reproduce the full pipeline with one command, without manually running Stage A, Stage B, and Stage C separately.
+```bash
+cd /path/to/SegSky-main/SSegsky
+bash examples/run_demo.sh
+```
 ## Requirements
 
 ### Python
